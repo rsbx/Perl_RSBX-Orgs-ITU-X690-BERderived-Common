@@ -34,7 +34,7 @@
 #  POSSIBILITY OF SUCH DAMAGE.
 
 
-package RSBX::Orgs::ITU::X690::BERderived::Common v0.1.0.0;
+package RSBX::Orgs::ITU::X690::BERderived::Common v0.1.0.1;
 
 
 use strict;
@@ -382,6 +382,10 @@ The object was encoded using the I<indefinite form> IFF C<I<length_length> == 1 
 =over 4
 
 =item * Almost no parameter validation is performed. Code wisely.
+
+=item * Tage values are limited to 28 bits.
+
+=item * Content length values are limited 31 bits.
 
 =back
 

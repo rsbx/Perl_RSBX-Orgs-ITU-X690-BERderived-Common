@@ -1,3 +1,4 @@
+
 =pod
 
 =head1 NAME
@@ -173,6 +174,10 @@ The object was encoded using the I<indefinite form> IFF C<I<length_length> == 1 
 =over 4
 
 =item * Almost no parameter validation is performed. Code wisely.
+
+=item * Tage values are limited to 28 bits.
+
+=item * Content length values are limited 31 bits.
 
 =back
 
